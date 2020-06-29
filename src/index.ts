@@ -11,11 +11,7 @@ let JUMP = false;
 let DINO_SPEED_Y = 0;
 let DINO_Y = canvas.height - 64 + DINO_SPEED_Y;
 let SCORE = 0;
-const TRAPS_IMG: ('cactus2.png' | 'cactus.png' | 'flyingdinosaur.png')[] = [
-  'cactus2.png',
-  'cactus.png',
-  'flyingdinosaur.png',
-];
+const TRAPS_IMG = ['cactus2.png', 'cactus.png', 'flyingdinosaur.png'];
 let TRAPS = [{ img: 0, x: 500, y: canvas.height - 57 }];
 let TRAPS_SPEED = -SPEED;
 
